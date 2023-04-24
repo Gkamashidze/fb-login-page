@@ -1,0 +1,82 @@
+@font-face {
+    font-family: helvetica;
+    src: url(./src/fonts/Helvetica\ Regular.otf);
+}
+
+body {
+    background-color: #f0f2f5;
+    padding-top: 90px;
+}
+
+
+.left-side>h1 {
+    margin-bottom: 0;
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: normal;
+
+    color: #1c1e21;
+
+    font-family: helvetica;
+}
+
+.left-side>span {
+    font-family: helvetica;
+    font-size: 15px;
+    line-height: 24px;
+    color: #606770;
+}
+
+.left-side {
+    border-color: red;
+}
+
+.account-box {
+    gap: 20px;
+
+
+}
+
+.account-img {
+    width: 160px;
+
+    margin-top: 24px;
+
+    border-radius: 8px;
+
+
+}
+
+.account-text {
+    background-color: #fff;
+    text-align: center;
+    font-family: helvetica;
+    color: #4b4f56;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 12px;
+    width: 100%;
+}
+
+.add-acc {
+    /* border-color: red; */
+    margin-top: 24px;
+
+    width: 160px;
+    height: 160px;
+    background-color: #f5f6f7;
+    /* border-radius: 8px; */
+
+    /* background-color: red; */
+}
+
+.account-text1 {
+    background-color: #fff;
+    text-align: center;
+    font-family: helvetica;
+    color: #1877f2;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 12px;
+    width: 100%;
+}
